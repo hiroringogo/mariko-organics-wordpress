@@ -1,0 +1,383 @@
+/* ===========================
+   Mariko Organics - Custom CSS
+   =========================== */
+
+/* ヒーローセクション（2カラム） */
+.komeko-hero-image {
+	margin: 0 !important;
+	height: 100%;
+}
+
+.komeko-hero-image img {
+	width: 100%;
+	height: 640px;
+	object-fit: cover;
+	display: block;
+}
+
+/* ナビゲーションのリンク色 */
+.wp-block-navigation a {
+	color: #8A8A8A !important;
+	text-decoration: none;
+}
+
+.wp-block-navigation a:hover {
+	color: #2D2D2D !important;
+}
+
+/* カード画像のoverflow */
+.wp-block-column .wp-block-image {
+	overflow: hidden;
+	margin: 0;
+}
+
+.wp-block-column .wp-block-image img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	display: block;
+}
+
+/* ステップ番号の丸を正円にする */
+.komeko-step-number {
+	width: 48px !important;
+	height: 48px !important;
+	min-width: 48px;
+	min-height: 48px;
+	border-radius: 50% !important;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ボタンホバー */
+.wp-block-button__link:hover {
+	opacity: 0.9;
+	transition: opacity 0.2s ease;
+}
+
+/* フッターリンク */
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #7C9082 !important;
+}
+
+/* ===========================
+   Members Hero Gradient
+   =========================== */
+.mariko-members-hero {
+	background: linear-gradient(135deg, #3D534A 0%, #4A6358 50%, #5A7368 100%) !important;
+}
+
+/* ===========================
+   Member Login Button (Header)
+   =========================== */
+.mariko-member-login-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 10px 20px;
+	background-color: transparent;
+	color: #C9A96E;
+	border: 1px solid #C9A96E;
+	border-radius: 24px;
+	font-size: 13px;
+	font-weight: 500;
+	font-family: 'Inter', sans-serif;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.mariko-member-login-btn:hover {
+	background-color: #C9A96E;
+	color: #FFFFFF;
+}
+
+/* ===========================
+   Membership Section
+   =========================== */
+.mariko-crown-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 56px;
+	background-color: #C9A96E15;
+	border-radius: 16px;
+}
+
+.mariko-crown-icon i,
+.mariko-crown-icon svg {
+	width: 24px;
+	height: 24px;
+	color: #C9A96E;
+}
+
+.mariko-member-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 16px 36px;
+	background-color: #C9A96E;
+	color: #FFFFFF;
+	border-radius: 24px;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: 'Inter', sans-serif;
+	text-decoration: none;
+	transition: opacity 0.2s ease;
+}
+
+.mariko-member-btn:hover {
+	opacity: 0.9;
+}
+
+/* ===========================
+   Instagram Grid
+   =========================== */
+.mariko-instagram-grid .wp-block-image {
+	margin: 0;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.mariko-instagram-grid .wp-block-image img {
+	width: 100%;
+	height: auto;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	display: block;
+	transition: transform 0.3s ease;
+}
+
+.mariko-instagram-grid .wp-block-image:hover img {
+	transform: scale(1.05);
+}
+
+/* ===========================
+   Featured Article
+   =========================== */
+.mariko-featured-image {
+	margin: 0 !important;
+	overflow: hidden;
+	border-radius: 20px 0 0 20px;
+	height: 100%;
+}
+
+.mariko-featured-image img {
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+	object-fit: cover;
+	display: block;
+}
+
+/* ===========================
+   Blog Cards (Query Loop)
+   =========================== */
+.wp-block-post-template.is-layout-grid {
+	gap: 24px;
+}
+
+.wp-block-post-template .wp-block-post-featured-image {
+	margin: 0;
+	overflow: hidden;
+	border-radius: 20px 20px 0 0;
+}
+
+.wp-block-post-template .wp-block-post-featured-image img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+/* ===========================
+   Amazon Affiliate Cards
+   =========================== */
+.mariko-amazon-card {
+	gap: 20px;
+}
+
+.mariko-amazon-card .wp-block-image {
+	flex-shrink: 0;
+	margin: 0;
+}
+
+.mariko-amazon-card .wp-block-image img {
+	width: 120px;
+	height: 120px;
+	object-fit: contain;
+	border-radius: 12px;
+	background-color: #F5F5F5;
+}
+
+.mariko-amazon-btn {
+	display: inline-block;
+	padding: 8px 20px;
+	background-color: #FF9900;
+	color: #FFFFFF !important;
+	border-radius: 20px;
+	font-size: 13px;
+	font-weight: 500;
+	font-family: 'Inter', sans-serif;
+	text-decoration: none;
+	transition: opacity 0.2s ease;
+}
+
+.mariko-amazon-btn:hover {
+	opacity: 0.9;
+}
+
+/* ===========================
+   Members Page
+   =========================== */
+.mariko-gold-badge {
+	display: inline-block;
+	padding: 4px 12px;
+	background-color: #C9A96E20;
+	color: #C9A96E;
+	border-radius: 12px;
+	font-size: 11px;
+	font-weight: 500;
+	font-family: 'Inter', sans-serif;
+}
+
+.mariko-play-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 56px;
+	height: 56px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.mariko-play-overlay i,
+.mariko-play-overlay svg {
+	width: 24px;
+	height: 24px;
+	color: #3D534A;
+	margin-left: 3px;
+}
+
+.mariko-video-card {
+	position: relative;
+	overflow: hidden;
+}
+
+/* ===========================
+   レスポンシブ対応
+   =========================== */
+@media (max-width: 1024px) {
+	.komeko-hero .wp-block-group {
+		padding-left: 40px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	/* ヘッダー */
+	.wp-block-group.has-white-background-color[style*="padding-right:80px"] {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+	/* セクション padding */
+	.wp-block-group[style*="padding-right:120px"] {
+		padding-left: 24px !important;
+		padding-right: 24px !important;
+	}
+
+	/* ヒーロー */
+	.komeko-hero {
+		min-height: 500px !important;
+	}
+
+	.komeko-hero .wp-block-group {
+		padding-left: 24px !important;
+		padding-top: 80px !important;
+	}
+
+	.komeko-hero h1 {
+		font-size: 36px !important;
+	}
+
+	/* 見出し */
+	h2.wp-block-heading {
+		font-size: 28px !important;
+	}
+
+	/* 商品カード画像 */
+	.wp-block-column .wp-block-image img {
+		height: 180px;
+	}
+
+	/* ステップ矢印をモバイルで非表示 */
+	.wp-block-group > p.has-secondary-color {
+		display: none;
+	}
+
+	/* Instagram grid responsive */
+	.mariko-instagram-grid .wp-block-columns {
+		gap: 8px;
+	}
+
+	/* Members hero responsive */
+	.mariko-members-hero {
+		padding: 60px 24px !important;
+	}
+
+	.mariko-members-hero h1 {
+		font-size: 28px !important;
+	}
+
+	/* Featured article responsive */
+	.mariko-featured-image {
+		border-radius: 20px 20px 0 0;
+	}
+
+	.mariko-featured-image img {
+		min-height: 280px;
+		height: 280px;
+	}
+
+	/* Amazon cards responsive */
+	.mariko-amazon-card {
+		flex-direction: column;
+	}
+
+	.mariko-amazon-card .wp-block-image img {
+		width: 100%;
+		height: auto;
+		max-width: 200px;
+	}
+}
+
+@media (max-width: 480px) {
+	.komeko-hero h1 {
+		font-size: 28px !important;
+	}
+
+	/* カラムを縦並びに */
+	.wp-block-columns {
+		flex-direction: column;
+	}
+}
+
+/* スムーズスクロール */
+html {
+	scroll-behavior: smooth;
+}
+
+/* 選択時のハイライト */
+::selection {
+	background-color: #7C908240;
+	color: #2D2D2D;
+}
